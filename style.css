@@ -4,11 +4,13 @@
   width: 80px;
   height: 80px;
   background: pink;
-  /* transition-property: transform; */
-  /* transition-duration: 2s; */
-  transition: transform 2s linear 1s;
+  /* transition: transform 1s;
+  transition: border-radius 1s; */
+  transition: background-color 1s, transform 1s,border-radius 1s;
 }
 
 .box:hover {
-  transform: translateX(400px);
+  background-color: skyblue;
+  transform: translateX(100px);
+  border-radius: 50%;
 }
