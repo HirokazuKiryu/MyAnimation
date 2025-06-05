@@ -1,0 +1,14 @@
+
+
+.box {
+  width: 80px;
+  height: 80px;
+  background: pink;
+/* 非ホバー時もアニメーションさせたい場合は親要素に記述 */
+  transition-property: border-radius;
+  transition-duration: 1s;
+}
+
+.box:hover {
+  border-radius: 50%;
+}
