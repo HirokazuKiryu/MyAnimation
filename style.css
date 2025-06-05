@@ -7,9 +7,10 @@
 /* 非ホバー時もアニメーションさせたい場合は親要素に記述 */
   transition-property: transform;
   transition-duration: 1s;
+  transition-delay: 0.5s;
 }
 
 .box:hover {
-  transform: translateX(100px) rotate(45deg);
-  /* transform: rotate(45deg) translateX(100px); */
+  transform: translateX(100px);
+  /* transition-delay: 1s; */
 }
