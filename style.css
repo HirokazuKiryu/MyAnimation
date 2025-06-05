@@ -7,6 +7,7 @@
 /* 非ホバー時もアニメーションさせたい場合は親要素に記述 */
   transition-property: transform;
   transition-duration: 1s;
+  transform-origin: top left;
 }
 
 .box:hover {
@@ -19,7 +20,7 @@
 /* 倍率がX軸方向に2倍,Y軸方向に0.5倍 */
   /* transform: scale(2, .5); */
 /* 倍率がX,Y軸両方が0.5倍 */
-  /* transform: scale(.5); */
+  transform: scale(.5);
 /* Y軸にのみ0.5倍 */
-  transform: scaleY(.5);
+  /* transform: scaleY(.5); */
 }
